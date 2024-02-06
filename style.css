@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url("rm373batch13-085.jpg");
+}
+header{
+    height: 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 50%;
+}
+
+.logo img{
+    width: 100px;
+    margin: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pages{
+    width: 50%;
+}
+
+.pages ul {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    margin-left: 20px;
+}
+
+
+.pages ul{
+    list-style: none;
+}
+
+.pages ul li{
+    position: relative;
+    top: 20px;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #fff;
+    z-index: 4;
+    cursor: pointer;
+    opacity: 1;
+}
+
+.pages ul li:hover{
+    scale: 1.2;
+    text-decoration: underline;
+    color: rgb(33, 207, 149);
+    transition: .5s;
+    transform:rotate(5deg);
+}
+.pages ul a{
+    color: #fff;
+    text-decoration: none;
+}
